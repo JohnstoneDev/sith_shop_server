@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+
+# Image processing gem 
+gem "image_processing", ">= 1.2"
+
 # serializer for response objects 
 gem 'active_model_serializers'
 
